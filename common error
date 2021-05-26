@@ -1,0 +1,7 @@
+hi buddy , if you encounter these problems : 
+ - port already is use 
+ - connection aborted 
+for the second one make sure your file ( /var/run/docker.sock) run the right permissions (rwx)
+for the first one make sure to kill the process that is using the port :
+  - sudo lsof -i tcp:<port_number>
+  - sudo kill -9 <PID>
