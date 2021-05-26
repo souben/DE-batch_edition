@@ -1,4 +1,4 @@
-This project was build on following the article of : 
+This project was build on following this article: 
 https://www.startdataengineering.com/post/data-engineering-project-for-beginners-batch-edition)
 
 The aim of this project is :
